@@ -1,0 +1,18 @@
+Petunjuk Penggunaan Aplikasi MyKilau
+
+1. Unduh Source Code
+
+- Kunjungi repositori GitHub aplikasi MyKilau di https://github.com/AdliMuhamadDhiyaulHaq/MyKilau.git.
+- Klik tombol "Code" dan pilih opsi untuk mengunduh sebagai ZIP atau salin URL repositori untuk menggunakan Git.
+2. Persiapan Database
+- Unduh Aplikasi Lokal Server Support MySql  bisa menggunakan XAMPP atau LARAGON.
+- Pastikan Anda memiliki database MySQL yang siap digunakan.
+- Import database yang tersedia dari file mykilau.sql ke dalam database MySQL Anda. 
+3. Jalankan  Aplikasi
+- Buka terminal, arahkan ke direktori aplikasi MyKilau. Jalankan perintah berikut untuk menginstal dependensi: composer install
+- Setelah instalasi selesai, jalankan aplikasi menggunakan PHP Artisan: php artisan serve
+- Aplikasi akan berjalan di http://localhost:8000 secara default, atau ikuti petunjuk yang ditampilkan setelah menjalankan perintah php artisan serve.
+4. Penggunaan Aplikasi
+- Buka browser dan akses http://localhost:8000 atau alamat yang ditampilkan setelah menjalankan php artisan serve.
+- seharusnya dapat menginstal dan menjalankan aplikasi MyKilau secara lokal di komputer Anda.
+- Terimakasih
